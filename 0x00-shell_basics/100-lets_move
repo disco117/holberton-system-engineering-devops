@@ -1,2 +1,2 @@
 #!/bin/bash
-mv find /0x00-shell_basics -iname "[A-Z]*" /tmp/u
+mv src/*[[upper]]* /tmp/u/
