@@ -1,2 +1,2 @@
 #!/bin/bash
-mvdir welcome/to/school/
+mvdir -p welcome/to/schoo/
