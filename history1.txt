@@ -1,0 +1,1000 @@
+   39  rm -r Halo
+   40  ls
+   41  mkdir jojo
+   42  touch jaja
+   43  ls
+   44  cd jojo
+   45  cd ..
+   46  touch /jojo/gangam
+   47  cd ..
+   48  git --version
+   49  ssh-keygen -t ed25519 -C "3642.disco@gmail.com" 
+   50  eval "$(ssh-agent -s)" 
+   51  ssh-add ~/.ssh/id_ed25519 (3642.disco@gmail.com)
+   52  ssh-add ~/.ssh/id_ed25519
+   53  cat ~/.ssh/id_ed25519.pub
+   54  ssh -T git@github.com
+   55  ls
+   56  mkdir vimtest
+   57  cd vimtest
+   58  touch hello
+   59  ls
+   60  vim hello
+   61  ls
+   62  vim
+   63  ls
+   64  cat hello
+   65  vim hello
+   66  ls
+   67  vim hola
+   68  cat hola
+   69  cd -
+   70  man
+   71  man ls
+   72  ssh -T git@github.com
+   73  ls
+   74  mkdir test_repo
+   75  ls
+   76  cd test_repo
+   77  ls
+   78  vim README.md
+   79  ls
+   80  git init
+   81  git add README.md
+   82  ls
+   83  git commit -m "First Commit" 
+   84  git config --global user.email "3642.disco@gmail.com"
+   85  git config --global user.name "disco117"
+   86  git commit -m "First Commit" 
+   87  git branch -M main
+   88  git remote add origin git@github.com:disco117/test_repo.git
+   89  git push -u origin main
+   90  vim README.md
+   91  ls
+   92  cat README.md
+   93  git status
+   94  git add README.md
+   95  git status
+   96  git commit -m "Name changes"
+   97  git push
+   98  git status
+   99  vim TEST
+  100  git add TEST
+  101  git commit -m "NEW TEST"
+  102  git push
+  103  git rm TEST
+  104  git commit -m
+  105  git commit -m "Delete TEST"
+  106  git push
+  107  git status
+  108  ls
+  109  git status
+  110  git pull
+  111  ls
+  112  cat "Pull Test"
+  113  cd /root
+  114  cd
+  115  ls
+  116  mkdir projects
+  117  ls
+  118  cd projects
+  119  ssh 92fb3a0eab8b@eeb2d8d7.hbtn-cod.io
+  120  cd
+  121  git clone git@github.com:disco117/zero_day.git
+  122  ls
+  123  cd zero_day
+  124  emas
+  125  emacs
+  126  apt install e3
+  127  sudo apt install e3
+  128  sudo apt update
+  129  sudo apt install e3
+  130  emacs
+  131  ls
+  132  emacs README.md
+  133  la
+  134  cat README.md 
+  135  git add README.md
+  136  git commit -m "EMacs Task" 
+  137  git push
+  138  ls
+  139  mkdir 0x00-vagrant
+  140  vim 0x00-vagrant/README.md
+  141  ls
+  142  pwd
+  143  touch 0x00-vagrant/0-hello_ubuntu
+  144  ls
+  145  vim 0x00-vagrant/0-hello_ubuntu 
+  146  ls
+  147  cd 0x00-vagrant
+  148  la
+  149  git add .
+  150  git commit -m "Total Cont"
+  151  git push
+  152  ls
+  153  vim README.md
+  154  less README.md
+  155  vim 0-hello_ubuntu
+  156  /
+  157  cd
+  158  ssh 92fb3a0eab8b@eeb2d8d7.hbtn-cod.io
+  159  cd zero_day
+  160  ls
+  161  mkdir 0x03-git
+  162  ls
+  163  touch 0x03-git/README.md
+  164  ls
+  165  cd 0x03-git
+  166  ls
+  167  vim README.md
+  168  git add .
+  169  git commit -m "Repo-session"
+  170  git push
+  171  ls
+  172  mkdir bash
+  173  mkdir c
+  174  mkdir js
+  175  ls
+  176  touch c/c_is_fun.c
+  177  touch js/main.js
+  178  touch js/index.js
+  179  ls
+  180  vim bash/best
+  181  ls
+  182  vim bash/school
+  183  git add .
+  184  git commit -m "Starting to code today, so cool"
+  185  git push
+  186  git branch update_script
+  187  git branch
+  188  git checkout update_script
+  189  git branch
+  190  touch bash/98
+  191  vim bash/best
+  192  vim bash/school
+  193  ls
+  194  rmdir js
+  195  sudo rmdir js
+  196  rm js
+  197  rm -r js/
+  198  ls
+  199  git add .
+  200  git commit -m "My personal work"
+  201  git push
+  202  git push --set-upstream origin update_script
+  203  git branch
+  204  git checkout
+  205  git branch
+  206  git checkout main
+  207  git checkout master
+  208  vim bash/best
+  209  rm -r js/
+  210  ls
+  211  git add .
+  212  git commit -m "Hot fix"
+  213  git push
+  214  ls
+  215  vim README.md
+  216  git pull
+  217  touch up_to_date
+  218  ls
+  219  vim up_to_date
+  220  git add . 
+  221  git commit -m "How to be up to date in git"
+  222  git push
+  223  ls
+  224  exit
+  225  ssh 92fb3a0eab8b@eeb2d8d7.hbtn-cod.io
+  226  cd zero_day
+  227  git checkout
+  228  git merge update_script
+  229  git push origin update_script:master
+  230  git branch
+  231  cd 0x03-git
+  232  ls
+  233  cd bash
+  234  ls
+  235  vim best
+  236  git add .
+  237  git commit -m "test 1"
+  238  git push
+  239  ls
+  240  vim best
+  241  ls
+  242  vim school
+  243  git add .
+  244  git commit -m "test2"
+  245  git push
+  246  vim school
+  247  vim best
+  248  git add .
+  249  git commit -m "test3
+  250  git commit -m "test3"
+  251  git push
+  252  vim school
+  253  git add .
+  254  git commit -m "test4"
+  255  git push
+  256  ls
+  257  vim school
+  258  git add . 
+  259  git commit -m "test5"
+  260  git push
+  261  cd ..
+  262  emacs .gitignore
+  263  s
+  264  ls
+  265  touch .gitignore
+  266  vim .gitignore
+  267  git add .
+  268  git commit -m "test6"
+  269  ls
+  270  ls -a
+  271  git push
+  272  cd ..
+  273  git init
+  274  git add README.md
+  275  touch README.md
+  276  git init
+  277  git commit -m "always double check for adv task"
+  278  git add README.md
+  279  git commit -m "always double check for adv task"
+  280  git remote add origin git@github.com:disco117/holberton-system-engineering-devops.git
+  281  git push -u origin master
+  282  <<<<<<< HEAD
+  283  ls
+  284  git init
+  285  ls
+  286  git clone git@github.com:disco117/holberton-system-engineering-devops.git
+  287  ls
+  288  cd holberton-system-engineering-devops
+  289  touch README.md
+  290  mkdir 0x00-shell_basics
+  291  cd 0x00-shell_basics
+  292  touch 0-current_working-directory
+  293  cd ..
+  294  ls
+  295  vim README.md
+  296  git add .
+  297  git commit -m "Where am I?"
+  298  git push
+  299  ls
+  300  vim README.md
+  301  cd 00x0-shell_basics
+  302  cd 0x00-shell_basics/
+  303  ls
+  304  vim README.md
+  305  git add.
+  306  git add .
+  307  git commit -m "2nd"
+  308  git push
+  309  pwd
+  310  ls
+  311  vim 0-current_working-directory 
+  312  chmod u+x 0-current_working-directory 
+  313  ls
+  314  ./0-current_working-directory 
+  315  git add .
+  316  git commit -m "Where am I?"
+  317  git push
+  318  ls
+  319  vim 0-current_working-directory 
+  320  ls
+  321  cd ..
+  322  ls
+  323  vim README.md
+  324  git add .
+  325  git commit -m "test 1"
+  326  git push
+  327  cd
+  328  ls
+  329  cd holberton-system-engineering-devops/
+  330  ls
+  331  cat README.md 
+  332  vim README.md 
+  333  cat E
+  334  cat README.md 
+  335  ls
+  336  cd 0x00-shell_basics/
+  337  ls
+  338  cat README.md 
+  339  git pull
+  340  ls
+  341  git clone
+  342  git clone git@github.com:disco117/holberton-system-engineering-devops.git
+  343  git clone git@github.com:disco117/holberton-system_engineering-devops.git
+  344  git pull
+  345  git clone git@github.com:disco117/holberton-system_engineering-devops.git
+  346  cd ..
+  347  ls
+  348  git pull
+  349  ls
+  350  rm -r holberton-system-engineering-devops
+  351  rm -rf holberton-system-engineering-devops
+  352  ls
+  353  git pull
+  354  ls
+  355  git pull git@github.com:disco117/holberton-system_engineering-devops.git
+  356  ls
+  357  git pull git@github.com:disco117/holberton-system_engineering-devops.git
+  358  git clone git@github.com:disco117/holberton-system_engineering-devops.git
+  359  ls
+  360  cd holberton-system_engineering-devops/
+  361  ls
+  362  cat README.md 
+  363  cd 0x00-shell_basics/
+  364  ls
+  365  cat README.md 
+  366  rm 0-current_working-directory 
+  367  ls
+  368  touch 0-current_working-directory
+  369  ls
+  370  git add . 
+  371  vim 0-current_working-directory 
+  372  ls
+  373  cat 0-current_working-directory 
+  374  git add .
+  375  git commit -m "final test"
+  376  git push
+  377  rename 0-current_working-directory to 0-current_working_directory 
+  378  cat 0-current_working-directory 
+  379  mv 0-current_working-directory 0-current_working_directory 
+  380  ls
+  381  git add . 
+  382  git commit -m "final test?"
+  383  git push
+  384  pwd
+  385  chmod u+x 0-current_working_directory 
+  386  ls
+  387  git add . 
+  388  git commit m- "1"
+  389  git push
+  390  git add .
+  391  git commit -m "1"
+  392  git push
+  393  ls
+  394  touch 1-listit
+  395  vim 1-listit 
+  396  ls
+  397  git add . 
+  398  git commit -m "What's in there?"
+  399  git push
+  400  ls
+  401  vim 1-listit 
+  402  git add . 
+  403  git commit -m "1-listit" 
+  404  git push
+  405  cat 1-listit 
+  406  vim 1-listit 
+  407  git add .
+  408  git commit -m "lsl"
+  409  git push
+  410  cat 1-listit 
+  411  vim 1-listit 
+  412  cat 1-listit 
+  413  git add .
+  414  git commit -m "1101"
+  415  git push
+  416  chmod u+x 1-listit 
+  417  ls
+  418  git add . 
+  419  git commit -m "1111"
+  420  git push
+  421  vim 1-listit 
+  422  git add . 
+  423  git commit -m "11110"
+  424  git push
+  425  vim 2-bring_me_home
+  426  git add .
+  427  git commit -m "00"
+  428  git push
+  429  vim 2-bring_me_home 
+  430  chmod u+x 2-bring_me_home 
+  431  ls
+  432  git add .
+  433  git commit -m "01"
+  434  git push
+  435  vim 3-listfiles
+  436  chimod u+x 3-listfiles 
+  437  git add . 
+  438  git commit -m "00"
+  439  git push
+  440  cat 2-bring_me_home 
+  441  vim 3-listfiles 
+  442  git add .
+  443  git comnmit -m "01"
+  444  git push
+  445  git commit -m "101"
+  446  git push
+  447  cat 3-listfiles 
+  448  ls
+  449  chmod u+x 3-listfiles 
+  450  ls
+  451  git add . 
+  452  git commit -m "111"
+  453  git push
+  454  -a
+  455  ls -a
+  456  vim 4-listmorefiles
+  457  chmod u+x 4-listmorefiles 
+  458  git add . 
+  459  git commit -m "00"
+  460  git push
+  461  cat 4-listmorefiles 
+  462  ls
+  463  cat 4-listmorefiles 
+  464  ls -l -a
+  465  vim 4-listmorefiles 
+  466  git add .
+  467  git commit -m "01"
+  468  git push
+  469  ./4-listmorefiles 
+  470  cat 2-bring_me_home 
+  471  cat 3-listfiles 
+  472  vim 5-listfilesdigitonly
+  473  chmod u+x 5-listfilesdigitonly 
+  474  git add .
+  475  git commit -m "00"
+  476  git push
+  477  mkdir tmp
+  478  cd tmp
+  479  mkdir my_first_directory
+  480  ls
+  481  cd ..
+  482  cat 5-listfilesdigitonly 
+  483  vim 6-firstdirectory
+  484  ls
+  485  git add .
+  486  git commit -m "test"
+  487  git push
+  488  ls
+  489  cd tmp
+  490  ls
+  491  cd ..
+  492  ls
+  493  chmod u+x 6-firstdirectory 
+  494  ls
+  495  git add .
+  496  git commit -m "101"
+  497  git push
+  498  vim 6-firstdirectory 
+  499  ./6-firstdirectory 
+  500  git add .
+  501  git commit -m "1101"
+  502  git push
+  503  vim 7-movethatfile
+  504  cd temp
+  505  cd tmp
+  506  touch betty
+  507  cd ..
+  508  ls
+  509  vim 7-movethatfile 
+  510  chmod u+x 7-movethatfile 
+  511  ls
+  512  ./7-movethatfile 
+  513  git add .
+  514  git commit -m "betty"
+  515  git push
+  516  cd tmp
+  517  cd..
+  518  cd ..
+  519  vim 7-movethatfile 
+  520  git add .
+  521  git commit -m "betty"
+  522  git push
+  523  ./7-movethatfile 
+  524  cd tmp
+  525  ls
+  526  cd ..
+  527  ls
+  528  vim 7-movethatfile 
+  529  ./7-movethatfile 
+  530  cd tmp
+  531  ls
+  532  git add .
+  533  git commit -m "test"
+  534  git push
+  535  cd ..
+  536  vim 7-movethatfile 
+  537  git add .
+  538  git commit -m "betty"
+  539  git push
+  540  vim 7-movethatfile 
+  541  git add .
+  542  git commit -m "bettyyyyyy"
+  543  git push
+  544  vim 8-firstdelete
+  545  chmod u+x 8-firstdelete 
+  546  ls
+  547  git add .
+  548  git commit -m "delete"
+  549  git push
+  550  vim 9-firstdirdelition
+  551  chmod u+x 9-firstdirdelition 
+  552  git add . 
+  553  git commmit -m "rmdir"
+  554  git commit -m "rmdir"
+  555  git push
+  556  cat 8-firstdelete 
+  557  mv 9-firstdirdelition 9-firstdirdeletion 
+  558  ls
+  559  git add . 
+  560  git commit -m "typo"
+  561  git push
+  562  vim 10-back
+  563  chmod u+x 10-back 
+  564  git add .
+  565  git commit -m "10"
+  566  git push
+  567  cat 8-firstdelete 
+  568  ls
+  569  vim 10-back 
+  570  git add . 
+  571  git commit -m "cd-"
+  572  git push
+  573  vim 8-firstdelete 
+  574  vim 11-lists
+  575  ls -p
+  576  cd tmp
+  577  ls -p
+  578  ls ..
+  579  ls -a -
+  580  ls -a ..
+  581  cd ..
+  582  vim 11-lists 
+  583  mkdir boot
+  584  ls
+  585  chmod u+x 11-lists 
+  586  ls
+  587  git add . 
+  588  git commit -m "boot"
+  589  git push
+  590  vim 11-lists 
+  591  ./11-lists 
+  592  ls
+  593  git add .
+  594  git commit -m "boot"
+  595  git push
+  596  ls -la
+  597  la -al ..
+  598  ls -alt ..
+  599  vim 11-lists 
+  600  ls
+  601  ./11-lists 
+  602  git add .
+  603  git commit -m "alt"
+  604  git push
+  605  ./11-lists 
+  606  vim 11-lists 
+  607  git add .
+  608  git commit -m "test"
+  609  git push
+  610  vim
+  611  cd tmp
+  612  touch iamafile
+  613  vim 12-file_type
+  614  chmod u+x 12-file_type 
+  615  ./12-file_type 
+  616  mv iamafile /0x00-shell_basics
+  617  mv 12-file_type /0x00-shell_basic
+  618  sudo mv 12-file_type /0x00-shell_basic
+  619  cd ..
+  620  ls
+  621  sudo mv 12-file_type/0x00-shell_basics
+  622  sudo mv 12-file_type 0x00-shell_basics
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd tmp
+  627  ls
+  628  cd /tmp
+  629  ls
+  630  cd /0x00-shell_basic
+  631  cd ..
+  632  ls
+  633  cat 0x00-shell_basic 
+  634  rm 0x00-shell_basic 
+  635  sudo rm 0x00-shell_basic 
+  636  ls
+  637  cd ~
+  638  ls
+  639  cd holberton-system_engineering-devops/
+  640  ls
+  641  cd 0x00-shell_basics/
+  642  ls
+  643  vim 12-file_type
+  644  chmod u+x 12-file_type 
+  645  ./12-file_type 
+  646  git add . 
+  647  git commit -m "12"
+  648  git push
+  649  vim 12-file_type 
+  650  ./12-file_type 
+  651  vim 12-file_type 
+  652  ./12-file_type 
+  653  cd tmp
+  654  ls
+  655  cd ..
+  656  cat 12-file_type 
+  657  git add . 
+  658  git commit -m "let"
+  659  git push
+  660  ls
+  661  touch /bin/ls
+  662  touch ls/bin
+  663  mkdir bit
+  664  ls
+  665  mv bit bin
+  666  ls
+  667  cd bin
+  668  touch ls
+  669  cd ..
+  670  vim 13-symbolic_link
+  671  chmod u+x 13-symbolic_link 
+  672  ./13-symbolic_link 
+  673  ls
+  674  git add .
+  675  git commit -m "13"
+  676  git push
+  677  cat 12-file_type 
+  678  ln -s /bin/ls _ls_
+  679  cat 13-symbolic_link 
+  680  ls
+  681  cd bin
+  682  ls
+  683  ./13
+  684  cd ..
+  685  cat 13-symbolic_link 
+  686  git add .
+  687  git commit -m "test"
+  688  git push
+  689  rmdir bin
+  690  rmdir -r bin
+  691  cd bin
+  692  ls
+  693  rm ls
+  694  ls
+  695  cd ..
+  696  ls
+  697  rm bin
+  698  rmdir bin
+  699  ls
+  700  git add .
+  701  git commit -m "f"
+  702  git push
+  703  ls
+  704  vim 13-symbolic_link 
+  705  git add .
+  706  git commit -m "__"
+  707  git push
+  708  ls
+  709  vim 14-copy_html
+  710  chmod u+x 14-copy_html 
+  711  ls
+  712  git add .
+  713  git commit -m "14"
+  714  git push
+  715  vim 14-copy_html 
+  716  ls
+  717  ./14-copy_html 
+  718  cp --help
+  719  vim 14-copy_html 
+  720  ./14-copy_html 
+  721  ls
+  722  cat 14-copy_html 
+  723  ./14-copy_html 
+  724  vim 14-copy_html 
+  725  ./14-copy_html 
+  726  ls
+  727  ls -l
+  728  ./14-copy_*.html 
+  729  find / -type f -name ".html" 
+  730  find / -type f -name ".html" 2> /dev/null
+  731  find "*.html"
+  732  find ".html"
+  733  ls -l
+  734  nano 14-copy_html/copy_html 
+  735  rd 14-copy_html/copy_html 
+  736  vim 14-copy_html 
+  737  ./14-copy_html 
+  738  vim 14-copy_html 
+  739  ./14-copy_html 
+  740  git add .
+  741  git commit -m "14"
+  742  git push
+  743  cd tmp
+  744  mkdir u
+  745  man ls
+  746  cd ..
+  747  vim 100-lets_move
+  748  chmod u+x 100-lets_move 
+  749  ls
+  750  ./100-lets_move 
+  751  git add .
+  752  git commit -m "100"
+  753  git push
+  754  vim 100-lets_move 
+  755  ./100-lets_move 
+  756  git add .
+  757  git commit -m "100b"
+  758  git push
+  759  vim 100-lets_move 
+  760  ./100-lets_move 
+  761  cd tmp
+  762  ls
+  763  git ad .
+  764  git add .
+  765  git commit -m "100c" 
+  766  git push
+  767  cd ..
+  768  vim 100-lets_move 
+  769  ./100-lets_move 
+  770  vim 100-lets_move 
+  771  ./100-lets_move 
+  772  vim 100-lets_move 
+  773  git add .
+  774  git commit -m "type"
+  775  git push
+  776  vim 100-lets_move 
+  777  ./100-lets_move 
+  778  git add .
+  779  gi commit -m "test"
+  780  git push
+  781  vim 100-lets_move 
+  782  git add .
+  783  git commit -m "test"
+  784  git push
+  785  vim 100-lets_move 
+  786  ./100-lets_move 
+  787  cd /tmp/u
+  788  ls
+  789  cd tmp
+  790  ls
+  791  cd u
+  792  touch README.md
+  793  ls
+  794  cd ..
+  795  ls
+  796  ./100-lets_move 
+  797  vim 100-lets_move 
+  798  cat 100-lets_move 
+  799  vim 100-lets_move 
+  800  ./100-lets_move 
+  801  vim 100-lets_move 
+  802  ./100-lets_move 
+  803  git add .
+  804  git commit -m "[]"
+  805  git push
+  806  vim 100-lets_move 
+  807  ./100-lets_move 
+  808  vim 100-lets_move 
+  809  cat 100-lets_move 
+  810  ./100-lets_move 
+  811  ls
+  812  git add .
+  813  git commit -m "100d"
+  814  git push
+  815  vim 101-clean_emacs
+  816  chmod u+x 100-lets_move 
+  817  chmod u+x 101-clean_emacs 
+  818  ls
+  819  ./101-clean_emacs 
+  820  git add .
+  821  git commit -m "101"
+  822  git push
+  823  cd ..
+  824  ls
+  825  mkdir 0x01-shell_permissions
+  826  ls
+  827  cd 0x01-shell_permissions/
+  828  ls
+  829  vim 0-ima_betty
+  830  git add .
+  831  git commit -m "test"
+  832  git push
+  833  ls
+  834  chmod u+x 0-ima_betty 
+  835  vim 1-who_am_i
+  836  ls
+  837  chmod u+x 1-who_am_i 
+  838  vim 2-groups
+  839  vim 3-new_owner
+  840  vim 4-empty
+  841  vim 5-execute
+  842  vim 6-multiple_permissions
+  843  vim 7-everybody
+  844  vim 8-James_Bond
+  845  vim 9-John_Doe
+  846  vim 10-mirror_permissions
+  847  chmod u+x 2-groups 
+  848  chmod u+x 3-new_owner 
+  849  chmod u+x 4-empty 
+  850  chmod u+x 5-execute 
+  851  chmod u+x 6-multiple_permissions 
+  852  chmod u+x 7-everybody 
+  853  chmod u+x 8-James_Bond 
+  854  chmod u+x 9-John_Doe 
+  855  chmod u+x 10-mirror_permissions 
+  856  ls
+  857  cd 0x00-shell_basics
+  858  cd ..
+  859  ls
+  860  cd 0x00-shell_basics/
+  861  ls
+  862  vim 102-tree
+  863  chmod u+x 102-tree 
+  864  ls
+  865  git add .
+  866  git commit -m "23Sep"
+  867  git push
+  868  vim 102-tree 
+  869  ./102-tree 
+  870  git add .
+  871  git commit 
+  872  git commit -m "test"
+  873  git push
+  874  vim 102-tree 
+  875  git add . 
+  876  git commit -m "102b"
+  877  git push
+  878  cat 102-tree 
+  879  vim 102-tree 
+  880  git add .
+  881  git commit -m "102c"
+  882  git push
+  883  ls
+  884  cat 102-tree 
+  885  vim 102-tree 
+  886  git add .
+  887  git commit -m "102d"
+  888  git push
+  889  cat 102-tree 
+  890  vim 102-tree 
+  891  git add .
+  892  git commit -m "102e"
+  893  git push
+  894  ./102-tree 
+  895  cat 102-tree 
+  896  ls
+  897  vim 103-commas
+  898  chmod u+x 103-commas 
+  899  ls
+  900  ./103-commas 
+  901  vim school.mgc
+  902  ./school.mgc
+  903  file --mime-type -m school.mgc
+  904  ls
+  905  chmod u+x school.mgc 
+  906  ls
+  907  ./school.mgc 
+  908  file --mime-type -m school.mgc
+  909  git add .
+  910  git commit -m "test"
+  911  git push
+  912  cd ..
+  913  cd 0x01-shell_permissions/
+  914  ls
+  915  touch README/md
+  916  touch README.md
+  917  ls
+  918  git add .
+  919  git commit -m "README/.md"
+  920  git push
+  921  vim README.md 
+  922  git add .
+  923  git commit -m "test"
+  924  git push
+  925  ls
+  926  mv 0-ima_betty 0-iam_betty
+  927  ls
+  928  git add .
+  929  git commit -m "betty"
+  930  git push
+  931  cat 6-multiple_permissions 
+  932  vim 6-multiple_permissions 
+  933  git add .
+  934  git commit -m "6error"
+  935  git push
+  936  cat 6-multiple_permissions 
+  937  vim 6-multiple_permissions 
+  938  git add .
+  939  git commit -m "6e"
+  940  git push
+  941  vim 7-everybody 
+  942  git add .
+  943  git commit -m "7"
+  944  git push
+  945  vim 7-everybody 
+  946  ./7-everybody 
+  947  git add .
+  948  git commit -m "7a"
+  949  git push
+  950  cat 10-mirror_permissions 
+  951  vim 10-mirror_permissions 
+  952  ls
+  953  git add .
+  954  git commit -m "10"
+  955  git push
+  956  vim 11-directories_permissions
+  957  ls
+  958  chmod u+x 11-directories_permissions 
+  959  ls
+  960  git add .
+  961  git commit -m "11"
+  962  git push
+  963  ./11-directories_permissions 
+  964  vim 11-directories_permissions 
+  965  ./11-directories_permissions 
+  966  git add .
+  967  git commit -m "11a"
+  968  git push
+  969  vim 12-directory_permissions
+  970  chmod u+x 12-directory_permissions 
+  971  cat 12-directory_permissions 
+  972  vim 12-directory_permissions 
+  973  git add .
+  974  git commit -m "12"
+  975  git push
+  976  vim 13-change_group
+  977  chmod u+x 13-change_group 
+  978  git add .
+  979  git commit -m "test"
+  980  git push
+  981  vim 100-change_wner_and_group
+  982  git add .
+  983  chmod u+x 100-change_wner_and_group
+  984  ls
+  985  mv 100-change_wner_and_group 100-change_owner_and_group 
+  986  git add .
+  987  git commit -m "test"
+  988  git push
+  989  vim 100-change_owner_and_group 
+  990  git add .
+  991  git commit -m "test1"
+  992  git push
+  993  vim 100-change_owner_and_group 
+  994  ./100-change_owner_and_group 
+  995  git add .
+  996  git commit -m "test3"
+  997  git push
+  998  vim 100-change_owner_and_group 
+  999  ./100-change_owner_and_group 
+ 1000  git add .
+ 1001  git commit -m "test"
+ 1002  git push
+ 1003  cat 100-change_owner_and_group 
+ 1004  vim 101-symbolic_link_permissions
+ 1005  chmod u+x 101-symbolic_link_permissions 
+ 1006  git add .
+ 1007  git commit -m "test"
+ 1008  git push
+ 1009  vim 101-symbolic_link_permissions 
+ 1010  git add .
+ 1011  git commit -m "test2"
+ 1012  git push
+ 1013  vim 102-if_only
+ 1014  chmod u+x 102-if_only 
+ 1015  git add .
+ 1016  git commit -m "16"
+ 1017  git push
+ 1018  vim 102-if_only 
+ 1019  git add .
+ 1020  git commit -m "test"
+ 1021  git push
+ 1022  vim 103-Star_Wars
+ 1023  chmod u+x 103-Star_Wars 
+ 1024  git add .
+ 1025  git commit -m "test"
+ 1026  git push
+ 1027  ./103-Star_Wars 
+ 1028  cat 12-directory_permissions 
+ 1029  cd
+ 1030  cd holberton-system_engineering-devops/
+ 1031  ls
+ 1032  cd 0x01-shell_permissions/
+ 1033  cd ..
+ 1034  cd 0x00-shell_basics/
+ 1035  cat 0-current_working_directory 
+ 1036  history
+ 1037  cd ..
+ 1038  history >> history1.txt
